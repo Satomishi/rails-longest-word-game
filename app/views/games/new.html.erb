@@ -1,8 +1,8 @@
 <h1 class="">Des lettres et des lettres</h1>
 <h2>Voici le tirage des lettres</h2>
-<ul class="letters list-group list-group-horizontal">
+<ul class="letters list-group list-group-horizontal gap-2 my-4">
   <% @tirage.each do |letter| %>
-    <li class="list-group-item"><%= letter %></li>
+    <li class="list-group-item border border-primary"><%= letter %></li>
   <% end %>
 </ul>
 <p>Quel est votre meilleur mot ?</p>
